@@ -1,0 +1,15 @@
+.Login{
+  background-image:
+    linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.9)),
+    url("../../images/bg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+

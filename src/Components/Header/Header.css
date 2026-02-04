@@ -1,0 +1,111 @@
+header {
+  background-color: var(--bg-card);
+  width: 100%;
+  height: 80px;
+}
+.logo {
+  width: 45px;
+}
+.Logo__Image span {
+  font-size: 24px;
+  color: var(--bg-Side-Icon);
+}
+
+/* icon */
+.circle-btn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--bg-icon);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  outline: none;
+}
+
+.circle-btn:hover {
+  background-color: var(--bg-icon);
+  color: var(--bg-Side-Icon);
+}
+
+.menu-btn {
+  display: none;
+}
+/* Search */
+
+.sarach {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: var(--text-secondary);
+}
+
+.sarach input {
+  width: 250px;
+  height: 40px;
+  padding: 0 35px 0 10px;
+  border-radius: 6px;
+  background-color: var(--bg-icon);
+  font-size: 16px;
+  padding-left: 40px;
+  padding-right: 10px;
+  color: var(--text-secondary);
+}
+
+.sarach svg {
+  position: absolute;
+  left: 10px;
+  color: var(--bg-Side-Icon);
+  cursor: pointer;
+}
+
+/* == User == */
+.User {
+  cursor: pointer;
+}
+.User img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* Colors */
+.User p {
+  color: var(--p-text);
+}
+
+.User h6 {
+  color: var(--text-main);
+}
+.icons__Header {
+  color: var(--text-main);
+}
+/* ResPonsive */
+@media (max-width: 648px) {
+  .sarach,
+  .message,
+  .User__Info,
+  .List__One {
+    display: none;
+  }
+  .light,
+  .notify,
+  .User img {
+    display: flex;
+  }
+
+  .header-icons {
+    order: 1 !important;
+  }
+  .User img {
+    order: 2 !important;
+  }
+
+  .menu-btn {
+    order: 3 !important;
+    display: block;
+  }
+}

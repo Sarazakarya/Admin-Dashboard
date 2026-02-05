@@ -109,6 +109,7 @@ header {
     display: block;
   }
   .btn__Sign{
-    display: none;
+    display: none !important;
   }
+  
 }

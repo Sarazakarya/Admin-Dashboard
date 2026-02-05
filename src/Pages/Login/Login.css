@@ -1,6 +1,6 @@
-.Login{
+.Login {
   background-image:
-    linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.9)),
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
     url("../../images/bg.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -9,7 +9,6 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
 }
-

@@ -49,7 +49,7 @@ export const Header = ({ sideBar, setSideBar }) => {
           </div>
 
           <div className="col-3 col-md-5 col-lg-7 d-flex align-items-center justify-content-end gap-3 header-icons">
-            <div className="circle-btn light" onClick={toggleTheme}>
+            <div className="circle-btn lightness" onClick={toggleTheme}>
               <CiLight size={20} className="icons__Header"/>
             </div>
 
@@ -84,7 +84,7 @@ export const Header = ({ sideBar, setSideBar }) => {
               </UserDropDown>
             ) : (
               <Link to={"/Login"}>
-                <Button variant="primary">Sign In</Button>
+                <Button variant="primary" className="btn__Sign">Sign In</Button>
               </Link>
             )}
           </div>

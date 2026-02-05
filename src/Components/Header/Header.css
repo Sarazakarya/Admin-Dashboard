@@ -91,7 +91,7 @@ header {
   .List__One {
     display: none;
   }
-  .light,
+  .lightness,
   .notify,
   .User img {
     display: flex;
@@ -107,5 +107,8 @@ header {
   .menu-btn {
     order: 3 !important;
     display: block;
+  }
+  .btn__Sign{
+    display: none;
   }
 }
